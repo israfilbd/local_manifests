@@ -1,1 +1,0 @@
-cd frameworks/base && git fetch https://github.com/ij-israfil/proximity_patch.git && git cherry-pick afb38a0f9f9a612b13b12b901ab9b7f0fffae3de && cd ../..
