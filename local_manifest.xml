@@ -14,5 +14,5 @@
 
 <!-- Framework Evolution -->
   <remove-project name="framework_base" />
- <project path="framework_base" name="ij-israfil/framework_base" remote="ghub" revision="tiramisu" />
+ <project path="framework/base" name="ij-israfil/framework_base" remote="ghub" revision="tiramisu" />
  </manifest>
