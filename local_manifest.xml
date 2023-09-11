@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote  name="ghub"
-                fetch="https://github.com" />
+        <remote  name="me"
+                fetch="https://github.com/ij-israfil" />
+	<remote  name="me"
+                fetch="https://github.com/Evolution-X" />
  
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="main" />
+  <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="me" revision="main" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
+ <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="me" revision="13" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
+ <project path="kernel/realme/RMX1901" name="kernel_realme_RMX1901" remote="me" revision="x.337_ksu" />
 
 <!-- Framework Evolution -->
- <remove-project name="Evolution-X/frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base" remote="ghub" revision="tiramisu" />
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base" remote="me" revision="tiramisu" />
  </manifest>
