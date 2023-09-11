@@ -13,5 +13,6 @@
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
 
 <!-- Framework Evolution -->
+  <remove-project name="framework_base" />
  <project path="framework_base" name="ij-israfil/framework_base" remote="ghub" revision="tiramisu" />
  </manifest>
