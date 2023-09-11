@@ -11,4 +11,7 @@
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
+
+<!-- Vendor Evolution -->
+ <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_evolution" remote="ghub" revision="tiramisu" />
  </manifest>
