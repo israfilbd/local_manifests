@@ -2,8 +2,6 @@
 <manifest>
         <remote  name="me"
                 fetch="https://github.com/ij-israfil" />
-	<remote  name="tiramisu"
-                fetch="https://github.com/Evolution-X" />
  
 <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="me" revision="main" />
