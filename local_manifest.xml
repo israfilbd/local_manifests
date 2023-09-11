@@ -2,7 +2,7 @@
 <manifest>
         <remote  name="me"
                 fetch="https://github.com/ij-israfil" />
-	<remote  name="me"
+	<remote  name="tiramisu"
                 fetch="https://github.com/Evolution-X" />
  
 <!-- Device Trees --> 
