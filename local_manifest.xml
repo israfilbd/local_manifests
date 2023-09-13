@@ -14,6 +14,6 @@
 
 <!-- Framework Alpha -->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base_alpha" remote="ghub" revision="alpha-13" />
+ <project path="frameworks/base" name="ij-israfil/frameworks_base" remote="ghub" revision="alpha-13" />
  
 </manifest>
