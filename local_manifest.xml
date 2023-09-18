@@ -17,6 +17,7 @@
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
 <!-- Framework Rise -->
+ <remove-project path="frameworks/base" />
  <project path="frameworks/base" name="android_frameworks_base" remote="gh" />
  
 </manifest>
