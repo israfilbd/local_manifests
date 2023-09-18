@@ -2,6 +2,10 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
+	        
+	 <remote name="gh"
+                fetch="https://github.com/ij-israfil"
+	        revision="thirteen" /> 
  
 <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="rise" />
@@ -13,7 +17,6 @@
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
 <!-- Framework Rise -->
- <remove-project name="RisingTechOSS/android/frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/android_frameworks_base" remote="ghub" revision="thirteen" />
+ <project path="frameworks/base" name="android_frameworks_base" remote="gh" />
  
 </manifest>
