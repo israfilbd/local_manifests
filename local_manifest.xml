@@ -15,5 +15,8 @@
 <!-- Framework Rise -->
  <remove-project name="RisingTechOSS/android_frameworks_base" />
  <project path="frameworks/base" name="frameworks_base_rise" remote="ghub" revision="thirteen" />
+
+<!-- KernelSU -->
+ <project path="kernel/realme/RMX1901/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.6.7"/>
  
 </manifest>
