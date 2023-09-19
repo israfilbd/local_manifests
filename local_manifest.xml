@@ -18,5 +18,6 @@
 
 <!-- KernelSU -->
  <project path="kernel/realme/RMX1901/KernelSU" name="tiann/KernelSU" remote="ghub" revision="refs/tags/v0.6.7"/>
+ <project name:"https://raw.githubusercontent.com/ij-israfil/GoFile-Upload/master/kernelSU.sh" />
  
 </manifest>
