@@ -17,6 +17,6 @@
  <project path="frameworks/base" name="ij-israfil/frameworks_base_rise" remote="ghub" revision="thirteen" />
 
 <!-- KernelSU -->
- <project path="kernel/realme/RMX1901/KernelSU" name="ij-israfil/KernelSU" remote="ghub" revision="refs/tags/v0.6.7"/>
+ <project path="kernel/realme/RMX1901/KernelSU" name="ij-israfil/KernelSU" remote="ghub" revision="main"/>
  
 </manifest>
