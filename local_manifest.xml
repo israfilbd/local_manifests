@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
  
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="pixelos" />
+  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="aicp" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
@@ -12,8 +12,8 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
-<!-- Framework pixelos -->
+<!-- Framework AICP -->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base_pixelos" remote="ghub" revision="thirteen" />
+ <project path="frameworks/base" name="ij-israfil/frameworks_base_aicp" remote="ghub" revision="t13.0" />
  
 </manifest>
