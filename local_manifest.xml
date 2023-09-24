@@ -17,5 +17,6 @@
  <project path="frameworks/base" name="ij-israfil/frameworks_base_aicp" remote="ghub" revision="t13.0" />
 
 <!-- Fix build error -->
-</ <project path="build/soong" name="ij-israfil/build_soong" remote="ghub" revision="t13.0" />
+ <project path="build/soong" name="ij-israfil/build_soong" remote="ghub" revision="t13.0" />
+
 </manifest>
