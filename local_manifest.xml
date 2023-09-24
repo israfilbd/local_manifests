@@ -17,10 +17,5 @@
  <project path="frameworks/base" name="ij-israfil/frameworks_base_aicp" remote="ghub" revision="t13.0" />
 
 <!-- Fix build error -->
- <remove-project name="AICP/build_soong" />
- </project>
- <project path="build/soong" name="ij-israfil/build_soong" remote="ghub" revision="t13.0" />
- <linkfile src="root.bp" dest="Android.bp" />
- <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-</project>
+</ <project path="build/soong" name="ij-israfil/build_soong" remote="ghub" revision="t13.0" />
 </manifest>
