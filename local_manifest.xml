@@ -20,4 +20,7 @@
  <remove-project name="AICP/build_soong" />
  <project path="build/soong" name="ij-israfil/build_soong" remote="ghub" revision="t13.0" />
 
+<!-- Fix build error -->
+ <project path="hardware/interfaces" name="ij-israfil/hardware_interfaces" remote="ghub" revision="lineage-20.0" />
+
 </manifest>
