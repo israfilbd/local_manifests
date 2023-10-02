@@ -11,5 +11,9 @@
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
+
+<!-- Framework AOSPA -->
+ <remove-project name="AOSPA/android_frameworks_base" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_aospa" remote="ghub" revision="topaz" />
  
 </manifest>
