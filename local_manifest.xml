@@ -15,5 +15,9 @@
 <!-- Evox Framework -->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="ij-israfil/frameworks_base" remote="ghub" revision="tiramisu" />
+
+<!-- Evox Vendor -->
+ <remove-project name="vendor_evolution" />
+ <project path="vendor/evolution" name="ij-israfil/vendor_evolution" remote="ghub" revision="tiramisu" />
  
 </manifest>
