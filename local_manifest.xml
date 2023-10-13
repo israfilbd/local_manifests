@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
  
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="evox" />
+  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="evox-a14" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
@@ -12,12 +12,4 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
-<!-- Evox Framework -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base" remote="ghub" revision="tiramisu" />
-
-<!-- Evox Vendor -->
- <remove-project name="vendor_evolution" />
- <project path="vendor/evolution" name="ij-israfil/vendor_evolution" remote="ghub" revision="tiramisu" />
- 
 </manifest>
