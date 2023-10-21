@@ -10,6 +10,6 @@
  <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="ij-israfil/parallax_kernel_realme_RMX1901" remote="ghub" revision="14" />
+ <project path="kernel/realme/parallax-RMX1901" name="ij-israfil/parallax_kernel_realme_RMX1901" remote="ghub" revision="14" />
 
 </manifest>
