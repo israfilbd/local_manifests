@@ -19,5 +19,10 @@
 <!-- Evox Vendor -->
  <remove-project name="vendor_evolution" />
  <project path="vendor/evolution" name="ij-israfil/vendor_evolution" remote="ghub" revision="tiramisu" />
+
+
+<!-- Evox Build -->
+ <remove-project name="build" />
+ <project path="build/make" name="ij-israfil/build" remote="ghub" revision="tiramisu" />
  
 </manifest>
