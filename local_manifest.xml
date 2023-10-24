@@ -12,4 +12,8 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
+<!-- Framework Derp -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="ij-israfil/frameworks_base_derp" remote="ghub" revision="13" />
+
 </manifest>
