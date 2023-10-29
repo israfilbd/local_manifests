@@ -12,4 +12,8 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
+<!-- Evox Framework -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_udc" remote="ghub" revision="udc" />
+
 </manifest>
