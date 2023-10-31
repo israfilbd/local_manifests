@@ -19,5 +19,8 @@
 <!-- Package App Superior -->
  <remove-project name="android_packages_apps_SuperiorLab" />
  <project path="packages/apps/SuperiorLab" name="ij-israfil/android_packages_apps_SuperiorLab" remote="ghub" revision="thirteen" />
-	
+
+<!-- hardware superior interfaces -->
+ <remove-project name="android_hardware_superior_interfaces" />
+ <project path="hardware/superior/interfaces" name="israfilbd/android_hardware_superior_interfaces" remote="ghub" revision="thirteen" />
 </manifest>
