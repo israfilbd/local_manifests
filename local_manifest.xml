@@ -18,6 +18,6 @@
 
 <!-- Package App Superior -->
  <remove-project name="android_packages_apps_SuperiorLab" />
-  <project path="packages/apps/SuperiorLab" name="ij-israfil/android_packages_apps_SuperiorLab" remote="thirteen" />
+  <project path="packages/apps/SuperiorLab" name="ij-israfil/android_packages_apps_SuperiorLab" remote="ghub" revision="thirteen />
  
 </manifest>
