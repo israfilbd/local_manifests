@@ -11,5 +11,8 @@
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="dev.337" />
+
+<!-- Remove display halls -->
+<remove-project name="hardware_qcom-caf_bengal_display" />
 	
 </manifest>
