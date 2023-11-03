@@ -2,6 +2,10 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
+
+	<remote name="dog"
+                fetch="https://gitlab.com/dogpoopy/"
+                clone-depth="1" />
  
 <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="derp-14" />
@@ -11,5 +15,8 @@
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="dev.337" />
+
+  <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="dog" revision="master" />
 
 </manifest>
