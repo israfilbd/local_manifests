@@ -7,7 +7,7 @@
   <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="superior" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
+ <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13-U" />
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="dev.337" />
