@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 	
 	<remote name="me"
-                fetch="https://github.com/israfilkhan1" />
+                fetch="https://github.com/ij-israfil" />
  
 <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="me" revision="superior" />
