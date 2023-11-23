@@ -15,7 +15,4 @@
 <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a_2.7.1" />
 
-<!-- oplus hardware -->
- <project path="hardware/oplus/interfaces/oplus" name="ankitstha/android_hardware_oplus" remote="ghub" revision="a13" />
-	
 </manifest>
