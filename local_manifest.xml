@@ -25,7 +25,4 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base" remote="ghub" revision="QPR3" clone-depth="1" />
  
-<!-- sign_keys -->
- <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
-	
 </manifest>
