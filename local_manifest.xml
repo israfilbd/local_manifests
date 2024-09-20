@@ -2,18 +2,20 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
- 
+
+	<remote  name="glab"
+                fetch="https://gitlab.com" />
+
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="aicp" />
+  <project path="device/realme/RMX1901" name="israfilbd/device_realme_RMX1901" remote="ghub" revision="yaap" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
+ <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14-qpr3" clone-depth="1" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
+ <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
 
-<!-- Framework AICP -->
- <remove-project name="AICP/frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base_aicp" remote="ghub" revision="t13.0" />
-
+ <!-- Proton clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+ 
 </manifest>
