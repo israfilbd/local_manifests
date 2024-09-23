@@ -25,5 +25,9 @@
  <!-- android_system_netd -->
  <remove-project name="platform/system/netd" />
  <project path="system/netd" name="kaderbava/android_system_netd" remote="ghub" revision="lineage-22.0" />
+
+<!-- vendor_yaap -->
+ <remove-project name="vendor_yaap" />
+ <project path="vendor/yaap" name="israfilbd/vendor_yaap" remote="ghub" revision="fifteen" clone-depth="1" />
 	
 </manifest>
