@@ -32,8 +32,4 @@
  <remove-project name="packages_modules_Connectivity" />
  <project path="packages/modules/Connectivity" name="israfilbd/packages_modules_Connectivity" remote="ghub" revision="QPR3" />
 
-<!-- android_system_netd -->
- <remove-project name="platform/system/netd" />
- <project path="system/netd" name="israfilbd/android_system_netd" remote="ghub" revision="lineage-21.0" />
-
 </manifest>
