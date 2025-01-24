@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote  name="ghub"
+                fetch="https://github.com" />
+
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15" clone-depth="1" />
+
+<!-- Viper4android -->
+ <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
+
+ <!-- Proton clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+
+<!-- frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="ij-project/frameworks_base_evox" remote="ghub" revision="vic" clone-depth="1" />
+
+<!-- vendor_extras -->
+ <remove-project name="vendor_extras" />
+ <project path="vendor/extras" name="ij-project/vendor_extras" remote="ghub" revision="vic" clone-depth="1" />
+
+</manifest>
