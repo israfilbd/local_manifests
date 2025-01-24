@@ -13,11 +13,11 @@
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
 <!-- frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-project/frameworks_base_evox" remote="ghub" revision="vic" clone-depth="1" />
+ <remove-project name="android_frameworks_base_new" />
+ <project path="frameworks/base" name="ij-project/android_frameworks_base_new" remote="ghub" revision="fifteen" clone-depth="1" />
 
-<!-- vendor_extras -->
- <remove-project name="vendor_extras" />
- <project path="vendor/extras" name="ij-project/vendor_extras" remote="ghub" revision="vic" clone-depth="1" />
+<!-- android_vendor_addons -->
+ <remove-project name="android_vendor_addons" />
+ <project path="vendor/addons" name="israfilbd/vendor_addons_rising" remote="ghub" revision="fifteen" clone-depth="1" />
 
 </manifest>
