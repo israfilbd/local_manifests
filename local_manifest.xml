@@ -12,4 +12,12 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
+ <!-- android_vendor_addons -->
+ <remove-project name="android_vendor_addons" />
+ <project path="vendor/addons" name="Ij-project/vendor_addons_mt" remote="ghub" revision="15.0" clone-depth="1" />
+
+  <!-- frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_mt" remote="ghub" revision="15.0" clone-depth="1" />
+ 
 </manifest>
