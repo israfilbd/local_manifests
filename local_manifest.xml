@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
  <!-- Kernel Trees-->
- <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15" clone-depth="1" />
+ <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15.1" clone-depth="1" />
 
 <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
@@ -12,12 +12,8 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
- <!-- android_vendor_addons -->
- <remove-project name="android_vendor_addons" />
- <project path="vendor/addons" name="Ij-project/vendor_addons_mt" remote="ghub" revision="15.0" clone-depth="1" />
+ <!-- vendor_addons -->
+ <remove-project name="vendor_addons" />
+ <project path="vendor/addons" name="Ij-project/vendor_addons_orion" remote="ghub" revision="vic" clone-depth="1" />
 
-  <!-- frameworks_base -->
- <remove-project name="android_frameworks_base" />
- <project path="frameworks/base" name="israfilbd/frameworks_base_mt" remote="ghub" revision="15.0" clone-depth="1" />
- 
 </manifest>
