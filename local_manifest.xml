@@ -14,10 +14,14 @@
 
  <!-- android_vendor_addons -->
  <remove-project name="android_vendor_addons" />
- <project path="vendor/addons" name="Ij-project/vendor_addons_mt" remote="ghub" revision="15.0" clone-depth="1" />
+ <project path="vendor/addons" name="ij-project/vendor_addons_mt" remote="ghub" revision="15.0" clone-depth="1" />
 
   <!-- frameworks_base -->
  <remove-project name="android_frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_mt" remote="ghub" revision="15.0" clone-depth="1" />
+
+<!-- android_packages_apps_MatrixxSettings -->
+ <remove-project name="android_packages_apps_MatrixxSettings" />
+ <project path="packages/apps/crDroidSettings" name="ij-project/android_packages_apps_MatrixxSettings" remote="ghub" revision="15.0" clone-depth="1" />
  
 </manifest>
