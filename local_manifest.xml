@@ -2,8 +2,11 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
+        
+        <remote  name="glab"
+                fetch="https://gitlab.com" />
 
- <!-- Kernel Trees-->
+ <!-- Kernel Trees -->
  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15.1" clone-depth="1" />
 
 <!-- Viper4android -->
@@ -14,6 +17,14 @@
 
  <!-- vendor_addons -->
  <remove-project name="vendor_addons" />
- <project path="vendor/addons" name="Ij-project/vendor_addons_orion" remote="ghub" revision="vic" clone-depth="1" />
+ <project path="vendor/addons" name="Ij-project/vendor_addons_alpha" remote="ghub" revision="alpha-15.1" clone-depth="1" />
+
+ <!-- frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="ij-project/frameworks_base_alpha" remote="ghub" revision="alpha-15.1" clone-depth="1" />
+
+ <!-- Clang 19.0.1 -->
+ <remove-project name="prebuilts_clang_host_linux-x86_clang-r547379" />
+ <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" remote="glab" revision="15.0" clone-depth="1" />
 
 </manifest>
