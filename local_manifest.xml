@@ -20,4 +20,8 @@
  <remove-project name="vendor_extras" />
  <project path="vendor/extras" name="ij-project/vendor_extras" remote="ghub" revision="vic" clone-depth="1" />
 
+ <!-- build_soong -->
+ <remove-project name="build_soong" />
+ <project path="build/soong" name="ij-project/build_soong" remote="ghub" revision="vic" clone-depth="1" />
+ 
 </manifest>
