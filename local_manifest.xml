@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote  name="glab"
-                fetch="https://gitlab.com" />
+        <remote  name="ghub"
+                fetch="https://github.com" />
 
  <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="evox-vic" />
