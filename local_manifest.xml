@@ -4,10 +4,10 @@
                 fetch="https://github.com" />
 
  <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="evox-vic" />
+  <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="7bbbb74fb0e8d651945a38224a253469222f5f2c" />
 
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="15" clone-depth="1" />
+ <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="5fc0fb4f03b2f6e9253d76eb97fb023e9d404d87" />
 
  <!-- Kernel Trees-->
  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15.1" clone-depth="1" />
@@ -21,4 +21,8 @@
 <!-- sign_keys -->
  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox-vic" />
 
+ <!-- build_soong -->
+  <remove-project name="build_soong" />
+  <project path="build/soong" name="ij-project/build_soong" remote="ghub" revision="vic" clone-depth="1" />
+  
 </manifest>
