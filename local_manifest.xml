@@ -24,5 +24,9 @@
 <!-- build_soong -->
 <remove-project name="android_build_soong" />
 <project path="build/soong" name="ij-project/android_build_soong" remote="ghub" revision="15.0" clone-depth="1" />
+
+<!-- android_frameworks_native -->
+<remove-project name="android_frameworks_native" />
+<project path="frameworks/native" name="ij-project/android_frameworks_native" remote="ghub" revision="15.0" clone-depth="1" />
  
 </manifest>
