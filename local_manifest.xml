@@ -19,6 +19,6 @@
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
 <!-- sign_keys -->
-<project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="Infinity" />
+<project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
 
 </manifest>
