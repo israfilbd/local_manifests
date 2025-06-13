@@ -7,7 +7,7 @@
 <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="evox-vic" />
 
 <!-- Vendor Trees -->
-<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="15" clone-depth="1" />
+<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
 
 <!-- Kernel Trees-->
 <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15.1" clone-depth="1" />
