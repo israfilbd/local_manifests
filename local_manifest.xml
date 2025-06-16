@@ -25,8 +25,8 @@
 <remove-project name="vendor_evolution" />
 <project path="vendor/lineage" name="israfilbd/vendor_evolution" remote="ghub" revision="bka" />
 
-<!-- system_core -->
-<remove-project name="system_core" />
-<project path="system/core" name="israfilbd/system_core" remote="ghub" revision="bka" />
+<!-- frameworks_base -->
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="ij-project/frameworks_base" remote="ghub" revision="bka" />
  
 </manifest>
