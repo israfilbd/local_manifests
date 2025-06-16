@@ -24,5 +24,9 @@
 <!-- dataservices -->
  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
 <project path="vendor/qcom/opensource/dataservices" name="Evolution-X/vendor_qcom_opensource_dataservices" remote="ghub" revision="bka" />
+
+<!-- vendor_evolution -->
+ <remove-project name="vendor_evolution" />
+<project path="vendor/lineage" name="israfilbd/vendor_evolution" remote="ghub" revision="bka" />
  
 </manifest>
