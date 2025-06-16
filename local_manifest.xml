@@ -21,4 +21,8 @@
 <!-- sign_keys -->
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox-vic" />
 
+<!-- dataservices -->
+ <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+<project path="vendor/qcom/opensource/dataservices" name="Evolution-X/vendor_qcom_opensource_dataservices" remote="ghub" revision="bka" />
+ 
 </manifest>
