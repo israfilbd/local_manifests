@@ -21,9 +21,9 @@
 <!-- sign_keys -->
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox-vic" />
 
-<!-- vendor_evolution
+<!-- vendor_evolution -->
 <remove-project name="vendor_evolution" />
-<project path="vendor/lineage" name="israfilbd/vendor_evolution" remote="ghub" revision="bka" /> -->
+<project path="vendor/lineage" name="israfilbd/vendor_evolution" remote="ghub" revision="bka" />
 
 <!-- frameworks_base -->
 <remove-project name="frameworks_base" />
