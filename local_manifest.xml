@@ -31,6 +31,6 @@
 
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
-<project path="hardware/qcom-caf/sdm845/audio" name="matei9/android_hardware_qcom_audio" remote="ghub" revision="16.0" />
+<project path="hardware/qcom-caf/sdm845/audio" name="israfil/android_hardware_qcom_audio" remote="ghub" revision="16.0" />
  
 </manifest>
