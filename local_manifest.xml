@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
@@ -23,7 +23,7 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="Legendleo90/packages_modules_Connectivity" remote="ghub" revision="bka" />
+<project path="packages/modules/Connectivity" name="yaap/packages_modules_Connectivity" remote="ghub" revision="sixteen" />
 
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
