@@ -21,9 +21,9 @@
 <!-- sign_keys -->
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox-vic" />
 
-<!-- vendor_evolution 
-<remove-project name="vendor_evolution" />
-<project path="vendor/lineage" name="israfilbd/vendor_evolution" remote="ghub" revision="bka" /> -->
+<!-- packages_modules_Connectivity -->
+<remove-project name="packages_modules_Connectivity" />
+<project path="packages/modules/Connectivity" name="Legendleo90/packages_modules_Connectivity" remote="ghub" revision="bka" />
 
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
