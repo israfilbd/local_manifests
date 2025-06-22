@@ -23,7 +23,7 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="yaap/packages_modules_Connectivity" remote="ghub" revision="sixteen" />
+<project path="packages/modules/Connectivity" name="ij-project/evox_packages_modules_Connectivity" remote="ghub" revision="bka" />
 
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
