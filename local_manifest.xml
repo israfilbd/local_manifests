@@ -25,6 +25,10 @@
 <remove-project name="packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="ij-project/evox_packages_modules_Connectivity" remote="ghub" revision="bka" />
 
+<!-- system_bpf -->
+<remove-project name="system_bpf" />
+<project path="system/bpf" name="ij-project/system_bpf" remote="ghub" revision="16.0" />
+ 
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
 <project path="hardware/qcom-caf/sdm845/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sdm845" />
