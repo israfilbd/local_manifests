@@ -28,6 +28,10 @@
 <!-- system_bpf -->
 <remove-project name="system_bpf" />
 <project path="system/bpf" name="exthmui-aosp/android_system_bpf" remote="ghub" revision="baka" />
+
+<!-- hardware_interfaces -->
+<remove-project name="hardware_interfaces" />
+<project path="hardware/interfaces" name="ij-project/hardware_interfaces" remote="ghub" revision="16.0" />
  
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
