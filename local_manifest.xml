@@ -23,11 +23,11 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-project/evox_packages_modules_Connectivity" remote="ghub" revision="bka" />
+<project path="packages/modules/Connectivity" name="exthmui-aosp/android_packages_modules_Connectivity" remote="ghub" revision="baka" />
 
 <!-- system_bpf -->
 <remove-project name="system_bpf" />
-<project path="system/bpf" name="ij-project/system_bpf" remote="ghub" revision="16.0" />
+<project path="system/bpf" name="exthmui-aosp/android_system_bpf" remote="ghub" revision="baka" />
  
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
