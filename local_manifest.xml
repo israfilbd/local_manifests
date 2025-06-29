@@ -23,7 +23,7 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="exthmui-aosp/android_packages_modules_Connectivity" remote="ghub" revision="baka" />
+<project path="packages/modules/Connectivity" name="israfilbd/android_packages_modules_Connectivity" remote="ghub" revision="baka" />
 
 <!-- system_bpf -->
 <remove-project name="system_bpf" />
