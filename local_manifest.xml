@@ -21,4 +21,7 @@
 <!-- sign_keys -->
 <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
 
+<!-- android_hardware_qcom_audio -->
+<remove-project name="android_hardware_qcom_audio" />
+<project path="hardware/qcom-caf/sdm845/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sdm845" />
 </manifest>
