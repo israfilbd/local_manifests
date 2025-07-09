@@ -23,11 +23,11 @@
 
 <!-- packages_modules_Connectivity
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-project/evox_packages_modules_Connectivity" remote="ghub" revision="bka" />
+<project path="packages/modules/Connectivity" name="ij-project/evox_packages_modules_Connectivity" remote="ghub" revision="bka" /> -->
 
 <!-- hardware_interfaces
 <remove-project name="hardware_interfaces" />
-<project path="hardware/interfaces" name="ij-project/hardware_interfaces" remote="ghub" revision="16.0" />
+<project path="hardware/interfaces" name="ij-project/hardware_interfaces" remote="ghub" revision="16.0" /> -->
  
 <!-- LineageOS/android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
