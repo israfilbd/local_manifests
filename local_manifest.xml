@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="infinity" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="infinity-16" />
 
 <!-- Vendor Trees -->
 <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
@@ -19,7 +19,7 @@
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
 <!-- sign_keys -->
-<project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
+<project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
