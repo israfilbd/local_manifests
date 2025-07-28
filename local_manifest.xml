@@ -7,10 +7,10 @@
 <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="infinity" />
 
 <!-- Vendor Trees -->
-<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="15" clone-depth="1" />
+<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
 
 <!-- Kernel Trees-->
-<project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="15.1" clone-depth="1" />
+<project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="16.0" clone-depth="1" />
 
 <!-- Viper4android -->
 <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
@@ -21,6 +21,18 @@
 <!-- sign_keys -->
 <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
 
+<!-- packages_modules_Connectivity -->
+<remove-project name="packages_modules_Connectivity" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
+
+<!-- system_netd -->
+<remove-project name="system_netd" />
+<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
+
+<!-- system_bpf -->
+<remove-project name="system_bpf" />
+<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
+ 
 <!-- android_hardware_qcom_audio -->
 <remove-project name="android_hardware_qcom_audio" />
 <project path="hardware/qcom-caf/sdm845/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sdm845" />
