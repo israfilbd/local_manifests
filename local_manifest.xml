@@ -42,9 +42,4 @@
 <project path="hardware/qcom-caf/sdm845/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sdm845" />
 <project path="hardware/qcom-caf/sm8350/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sm8350" />
 
-<!-- android_hardware_qcom_media -->
-<remove-project name="android_hardware_qcom_media" />
-<project path="hardware/qcom-caf/msm8953/media" name="israfilbd/android_hardware_qcom_media" remote="ghub" revision="lineage-22.2-caf-msm8953" />
-<project path="hardware/qcom-caf/sdm845/media" name="israfilbd/android_hardware_qcom_media" remote="ghub" revision="lineage-22.2-caf-sdm845" />
- 
 </manifest>
