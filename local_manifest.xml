@@ -40,7 +40,7 @@
 
 <!-- android_hardware_lineage_compat -->
 <remove-project name="LineageOS/android_hardware_lineage_compat" />
-<project path="hardware/lineage/compat" name="AxionAOSP/android_hardware_lineage_compat" remote="ghub" revision="lineage-23.0" />
+<project path="hardware/lineage/compat" name="RisingOS-Revived/android_hardware_lineage_compat" remote="ghub" revision="sixteen" />
  
 <!-- android_hardware_qcom_audio -->
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
