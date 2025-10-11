@@ -4,10 +4,10 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="6735420ee158279b2990ddc9de13742704777df8" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="infinity-16" />
 
 <!-- Vendor Trees -->
-<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="0a3db2a99aaf4e785bee6bab4d8253bac7eeb8a7" clone-depth="1" />
+<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
 
 <!-- Kernel Trees-->
 <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="16.0" clone-depth="1" />
@@ -23,7 +23,7 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16-old" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
 
 <!-- system_netd -->
 <remove-project name="LineageOS/android_system_netd" />
@@ -31,10 +31,6 @@
 
 <!-- system_bpf -->
 <remove-project name="system_bpf" />
-<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16-old" />
-
-<!-- android_hardware_lineage_compat -->
-<remove-project name="LineageOS/android_hardware_lineage_compat" />
-<project path="hardware/lineage/compat" name="hzosprj/android_hardware_lineage_compat" remote="ghub" revision="16" />
+<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
 
 </manifest>
