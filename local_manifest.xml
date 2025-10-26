@@ -24,7 +24,7 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="android_packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="axion" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
 
 <!-- system_netd -->
 <remove-project name="android_system_netd" />
