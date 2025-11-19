@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="rising" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="matrixx-16" />
 
 <!-- Vendor Trees -->
 <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
@@ -19,10 +19,10 @@
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
 <!-- sign_keys -->
-<project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="cr-15" />
+<project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
 
 <!-- packages_modules_Connectivity -->
-<remove-project name="android_packages_modules_Connectivity" />
+<remove-project name="crdroidandroid/android_packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="bka" />
 
 <!-- system_netd -->
@@ -30,7 +30,7 @@
 <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="bka" />
 
 <!-- system_bpf -->
-<remove-project name="system_bpf" />
+<remove-project name="crdroidandroid/android_system_bpf" />
 <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="bka" />
 
 <!-- android_hardware_lineage_compat -->
