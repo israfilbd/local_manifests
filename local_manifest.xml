@@ -33,8 +33,4 @@
 <remove-project name="crdroidandroid/android_system_bpf" />
 <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="bka" />
 
-<!-- android_hardware_lineage_compat -->
-<remove-project name="LineageOS/android_hardware_lineage_compat" />
-<project path="hardware/lineage/compat" name="hzosprj/android_hardware_lineage_compat" remote="ghub" revision="16" />
-
 </manifest>
