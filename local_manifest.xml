@@ -23,14 +23,14 @@
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16-qpr1" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="bq1" />
 
 <!-- system_netd -->
 <remove-project name="system_netd" />
-<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16-qpr1" />
+<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="bq1" />
 
 <!-- system_bpf -->
 <remove-project name="system_bpf" />
-<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16-qpr1" />
+<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="bq1" />
 
 </manifest>
