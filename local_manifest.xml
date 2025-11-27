@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="evox" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="clover-16" />
 
 <!-- Vendor Trees -->
 <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
@@ -19,19 +19,19 @@
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
 <!-- sign_keys -->
-<project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox-vic" />
+<project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="bq1" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16-qpr1" />
 
 <!-- system_netd -->
 <remove-project name="system_netd" />
-<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="bq1" />
+<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16-qpr1" />
 
 <!-- system_bpf -->
 <remove-project name="system_bpf" />
-<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="bq1" />
+<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16-qpr1" />
 
 <!-- android_hardware_lineage_compat -->
 <remove-project name="hardware_lineage_compat" />
