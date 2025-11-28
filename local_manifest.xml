@@ -37,6 +37,4 @@
 <remove-project name="hardware_lineage_compat" />
 <project path="hardware/lineage/compat" name="israfilbd/hardware_lineage_compat" remote="ghub" revision="bq1" />
 
-<remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" />
-
 </manifest>
