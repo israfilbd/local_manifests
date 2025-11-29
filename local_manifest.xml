@@ -30,7 +30,7 @@
 <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
 
 <!-- system_bpf -->
-<remove-project name="system_bpf" />
+<remove-project name="platform/system/bpf" />
 <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
 
 <!-- android_hardware_lineage_compat -->
