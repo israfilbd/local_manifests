@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="alpha-16" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="9a87bc0a6de5192dbd7a75fee8c40e13d6ca2c03" />
 
 <!-- Vendor Trees -->
 <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
@@ -36,5 +36,9 @@
 <!-- android_hardware_lineage_compat -->
 <remove-project name="LineageOS/android_hardware_lineage_compat" />
 <project path="hardware/lineage/compat" name="israfilbd/hardware_lineage_compat" remote="ghub" revision="16.0" />
+
+<!-- packages_apps_Settings -->
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="nakchwalabhi/packages_apps_Settings" remote="ghub" revision="patch-1" />
 
 </manifest>
