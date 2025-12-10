@@ -39,6 +39,10 @@
 
 <!-- packages_apps_Settings -->
 <remove-project name="packages_apps_Settings" />
-<project path="packages/apps/Settings" name="nakchwalabhi/packages_apps_Settings" remote="ghub" revision="patch-1" />
+<project path="packages/apps/Settings" name="nakchwalabhi/packages_apps_Settings" remote="ghub" revision="patch-1" clone-depth="1" />
+
+<!-- frameworks_base -->
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="israfilbd/frameworks_base_alpha" remote="ghub" revision="alpha-16.1" clone-depth="1" />
 
 </manifest>
