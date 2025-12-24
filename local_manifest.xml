@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="lunaris" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="83bd6a0bb481e65c63097d028c8ebf2692c331aa" />
 
 <!-- Vendor Trees -->
 <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
