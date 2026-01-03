@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 
 <!-- Device Trees --> 
-<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="db25eb5b3db11ab2c6f8a95863883a87767cfc30" />
+<project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="mistos" />
 
 <!-- Vendor Trees -->
 <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
@@ -30,11 +30,7 @@
 <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
 
 <!-- system_bpf -->
-<remove-project name="platform/system/bpf" />
+<remove-project name="system_bpf" />
 <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
-
-<!-- android_hardware_lineage_compat -->
-<remove-project name="LineageOS/android_hardware_lineage_compat" />
-<project path="hardware/lineage/compat" name="israfilbd/hardware_lineage_compat" remote="ghub" revision="16.0" />
 
 </manifest>
