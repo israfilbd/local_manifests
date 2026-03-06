@@ -29,4 +29,6 @@
 <remove-project name="packages_apps_Settings" />
 <project path="packages/apps/Settings" name="israfilbd/packages_apps_Settings" remote="ghub" revision="16" />
 
+<remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" />
+
 </manifest>
