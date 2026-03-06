@@ -21,4 +21,12 @@
 <!-- sign_keys -->
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
 
+<!-- frameworks_base -->
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="israfilbd/frameworks_base" remote="ghub" revision="16" />
+
+<!-- packages_apps_Settings -->
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="israfilbd/packages_apps_Settings" remote="ghub" revision="16" />
+
 </manifest>
