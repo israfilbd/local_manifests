@@ -7,10 +7,10 @@
 <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="lunaris" />
 
 <!-- Vendor Trees -->
-<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16" clone-depth="1" />
+<project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="16.2" clone-depth="1" />
 
 <!-- Kernel Trees-->
-<project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="axilumi" clone-depth="1" />
+<project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="axilumi-bpf" clone-depth="1" />
 
 <!-- Viper4android -->
 <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a_2.7.2" />
@@ -22,15 +22,21 @@
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox-vic" />
 
 <!-- packages_modules_Connectivity -->
-<remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
+<remove-project name="Lunaris-AOSP/packages_modules_Connectivity" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="lineage-23.2" />
 
-<!-- system_netd -->
-<remove-project name="LineageOS/android_system_netd" />
-<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
+<!-- frameworks_base -->
+<remove-project name="Lunaris-AOSP/frameworks_base" />
+<project path="frameworks/base" name="ij-project/frameworks_base_luna" remote="ghub" revision="16.2" />
 
-<!-- system_bpf -->
-<remove-project name="system_bpf" />
-<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
+<!-- packages_apps_Settings -->
+<remove-project name="Lunaris-AOSP/packages_apps_Settings" />
+<project path="packages/apps/Settings" name="ij-project/packages_apps_Settings_luna" remote="ghub" revision="16.2" />
+
+<!-- android_hardware_lineage_compat -->
+<remove-project name="LineageOS/android_hardware_lineage_compat" />
+<project path="hardware/lineage/compat" name="yaap/hardware_lineage_compat" remote="ghub" revision="sixteen" />
+
+<remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" />
 
 </manifest>
