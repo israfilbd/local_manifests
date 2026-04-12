@@ -25,14 +25,6 @@
 <remove-project name="Lunaris-AOSP/packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="lineage-23.2" />
 
-<!-- frameworks_base -->
-<remove-project name="Lunaris-AOSP/frameworks_base" />
-<project path="frameworks/base" name="ij-project/frameworks_base_luna" remote="ghub" revision="16.2" />
-
-<!-- packages_apps_Settings -->
-<remove-project name="Lunaris-AOSP/packages_apps_Settings" />
-<project path="packages/apps/Settings" name="ij-project/packages_apps_Settings_luna" remote="ghub" revision="16.2" />
-
 <!-- android_hardware_lineage_compat -->
 <remove-project name="LineageOS/android_hardware_lineage_compat" />
 <project path="hardware/lineage/compat" name="israfilbd/android_hardware_lineage_compat" remote="ghub" revision="lineage-23.2" />
