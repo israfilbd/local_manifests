@@ -18,10 +18,6 @@
 <!-- sign_keys -->
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="derp-15" />
 
-<!-- frameworks_base -->
-<remove-project name="android_frameworks_base" />
-<project path="frameworks/base" name="ij-project/frameworks_base_axion" remote="ghub" revision="lineage-23.2" />
-
 <!-- packages_modules_Connectivity -->
 <remove-project name="android_packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="lineage-23.2" />
