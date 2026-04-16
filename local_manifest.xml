@@ -25,6 +25,10 @@
 <remove-project name="packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="lineage-23.2" />
 
+<!-- android_hardware_lineage_compat -->
+<remove-project name="LineageOS/android_hardware_lineage_compat" />
+<project path="hardware/lineage/compat" name="israfilbd/android_hardware_lineage_compat" remote="ghub" revision="lineage-23.2" />
+
 <remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" />
 
 </manifest>
