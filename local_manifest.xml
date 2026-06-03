@@ -33,6 +33,4 @@
 <remove-project name="android_vendor_lineage" />
 <project path="vendor/lineage" name="israfilbd/android_vendor_lineage" remote="ghub" revision="lineage-23.2" />
 
-<remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" />
-
 </manifest>
