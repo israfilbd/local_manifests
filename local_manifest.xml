@@ -31,6 +31,6 @@
 
  <!-- packages_apps_Dialer -->
 <remove-project name="packages_apps_Dialer" />
-<project path="packages/apps/Dialer" name="Oneplus-Nord5-development/android_packages_apps_Dialer" remote="ghub" revision="lineage-23.2" />
+<project path="packages/apps/Dialer" name="AltairROM/android_packages_apps_Dialer" remote="ghub" revision="16" />
 
 </manifest>
