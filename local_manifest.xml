@@ -21,20 +21,4 @@
 <!-- sign_keys -->
 <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
 
-<!-- packages_modules_Connectivity -->
-<remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="lineage-23.2" />
-
-<!-- android_hardware_lineage_compat -->
-<remove-project name="LineageOS/android_hardware_lineage_compat" />
-<project path="hardware/lineage/compat" name="israfilbd/android_hardware_lineage_compat" remote="ghub" revision="lineage-23.2" />
-
- <!-- packages_apps_Dialer -->
-<remove-project name="packages_apps_Dialer" />
-<project path="packages/apps/Dialer" name="israfilbd/android_packages_apps_Dialer" remote="ghub" revision="lineage-23.2" />
-
- <!-- frameworks_native -->
-<remove-project name="frameworks_native" />
-<project path="frameworks/native" name="Lunaris-AOSP/frameworks_native" remote="ghub" revision="16.2" />
-
 </manifest>
