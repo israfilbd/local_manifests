@@ -29,4 +29,8 @@
 <remove-project name="LineageOS/android_hardware_lineage_compat" />
 <project path="hardware/lineage/compat" name="israfilbd/android_hardware_lineage_compat" remote="ghub" revision="lineage-23.2" />
 
+  <!-- packages_apps_Dialer -->
+<remove-project name="Lunaris-AOSP/packages_apps_Dialer" />
+<project path="packages/apps/Dialer" name="israfilbd/android_packages_apps_Dialer" remote="ghub" revision="lineage-23.2" />
+
 </manifest>
