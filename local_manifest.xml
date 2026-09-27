@@ -29,8 +29,4 @@
 <remove-project name="android_hardware_lineage_compat" />
 <project path="hardware/lineage/compat" name="israfilbd/android_hardware_lineage_compat" remote="ghub" revision="lineage-23.2" />
 
-<!-- android_device_axion_common -->
-<remove-project name="android_device_axion_common" />
-<project path="device/axion/common" name="ij-project/android_device_axion_common" remote="ghub" revision="lineage-23.2" />
-
 </manifest>
