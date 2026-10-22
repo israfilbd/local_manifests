@@ -35,6 +35,6 @@
 
  <!-- vendor_gms -->
 <remove-project name="vendor_gms" />
-<project path="vendor/gms" name="israfilbd/vendor_gms" remote="ghub" revision="bka" />
+<project path="vendor/gms" name="israfilbd/vendor_gms" remote="ghub" revision="bka" clone-depth="1" />
 
 </manifest>
