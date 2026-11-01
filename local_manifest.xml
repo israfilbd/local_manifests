@@ -23,7 +23,7 @@
 
 <!-- Lunaris-AOSP/vendor_lineage -->
 <remove-project name="Lunaris-AOSP/vendor_lineage" />
-<project path="vendor/lineage" name="istafilbd/vendor_lineage" remote="ghub" revision="16.2" clone-depth="1" />
+<project path="vendor/lineage" name="israfilbd/vendor_lineage" remote="ghub" revision="16.2" clone-depth="1" />
 
 <!-- packages_modules_Connectivity -->
 <remove-project name="Lunaris-AOSP/packages_modules_Connectivity" />
