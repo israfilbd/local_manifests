@@ -80,7 +80,7 @@
   <remove-project name="system_update_engine" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="LineageOS-LD" />
   <remove-project name="system_vold" />
-  <project path="system/vold" name="RMX1901-dev/android_system_vold" groups="pdk" remote="ghub" revision="17" />
+  <project path="system/vold" name="RMX1901-dev/system_vold" groups="pdk" remote="ghub" revision="17" />
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
