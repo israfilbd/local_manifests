@@ -79,9 +79,7 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="LineageOS-LD" />
   <remove-project name="system_update_engine" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="LineageOS-LD" />
-  <remove-project name="system_vold" />
-  <project path="system/vold" name="RMX1901-dev/system_vold" groups="pdk" remote="ghub" revision="17" />
-
+    
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,kaanapali-vendor" remote="LineageOS-LD" />
