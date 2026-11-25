@@ -41,8 +41,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
   <!-- Hardware -->
-  <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="LineageOS-LD" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="bava" />
 
@@ -80,22 +78,8 @@
   <!-- System -->
   <remove-project name="LineageOS/android_system_bpf" />
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="LineageOS-LD" />
-  <remove-project name="system_core" />
-  <project path="system/core" name="RMX1901-dev/system_core" groups="pdk" remote="ghub" revision="17" />
-  <remove-project name="LineageOS/android_system_extras" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" remote="LineageOS-LD" />
   <remove-project name="LineageOS/android_system_netd" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="LineageOS-LD" />
-  <remove-project name="LineageOS/android_system_security" />
-  <project path="system/security" name="android_system_security" groups="pdk" remote="LineageOS-LD" />
-  <remove-project name="system_update_engine" />
-  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="LineageOS-LD" />
-  <remove-project name="system_vold" />
-  <project path="system/vold" name="RMX1901-dev/system_vold" groups="pdk" remote="ghub" revision="17" />
-
-  <!-- Vendor -->
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,kaanapali-vendor" remote="LineageOS-LD" />
 
   <!-- Device, Vendor & Kernel Trees -->
   <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="17" />
