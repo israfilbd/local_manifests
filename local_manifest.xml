@@ -8,7 +8,7 @@
 <manifest>
   <!-- Remotes -->
   <remote name="LineageOS-LD"
-          fetch="https://github.com/LineageOS-LD/"
+          fetch="https://github.com/LineageOS-LD"
           revision="lineage-24.0" />
 
   <remote  name="lineage"
@@ -20,27 +20,19 @@
           fetch="https://github.com/kaderbava"
           revision="lineage-24.0" />
 
-  <remote name="ghub"
-          fetch="https://github.com" />
+  <remote name="realme"
+          fetch="https://github.com/realme-sdm710-devs"
+          revision="17" />
 
-  <!-- Build -->
-  <remove-project name="build" />
-  <project path="build/make" name="RMX1901-dev/build" groups="pdk,sysui-studio" remote="ghub" revision="17" >
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  
   <!-- Toolchains (GCC & Proton Clang) -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
   <!-- Hardware -->
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="LineageOS-LD" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="bava" />
 
@@ -62,29 +54,35 @@
   <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="LineageOS-LD" />
 
   <!-- Packages -->
-  <remove-project name="packages_modules_Connectivity" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="LineageOS-LD" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="LineageOS-LD" />
-  <remove-project name="packages_apps_Dialer" />
-  <project path="packages/apps/Dialer" name="Ghosuto/packages_apps_Dialer" groups="pdk-fs" remote="ghub" revision="17" />
 
   <!-- SELinux -->
   <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/legacy-um" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="bava" revision="lineage-24.0-legacy-um" />
-  <remove-project name="system_sepolicy" />
-  <project path="system/sepolicy" name="RMX1901-dev/android_system_sepolicy" groups="pdk" remote="ghub" revision="17" />
 
   <!-- System -->
+  <remove-project name="system_core" />
+  <project path="system/core" name="system_core" groups="pdk" remote="realme" />
+  <remove-project name="system_vold" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="realme" />
   <remove-project name="LineageOS/android_system_bpf" />
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="LineageOS-LD" />
+  <remove-project name="LineageOS/android_system_extras" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="LineageOS-LD" />
   <remove-project name="LineageOS/android_system_netd" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="LineageOS-LD" />
-
+  <remove-project name="LineageOS/android_system_security" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="LineageOS-LD" />
+  
+  <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,kaanapali-vendor" remote="LineageOS-LD" />
+  
   <!-- Device, Vendor & Kernel Trees -->
-  <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="17" />
-  <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="ghub" revision="17" clone-depth="1" />
-  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="17-bpf" clone-depth="1" />
-  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a_2.7.2" />
-  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="infinity" />
+  <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="github" revision="17" />
+  <project path="vendor/realme/RMX1901" name="ij-project/vendor_realme_RMX1901" remote="github" revision="17" clone-depth="1" />
+  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="github" revision="17-bpf" clone-depth="1" />
+  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a_2.7.2" />
+  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="github" revision="infinity" />
 </manifest>
